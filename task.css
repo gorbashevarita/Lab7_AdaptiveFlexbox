@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blue;
+    gap: 10px;
+    padding: 30px;
+    background: linear-gradient(to right, #764cff, #9141d3);
+}
+
+
+header h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+header p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+}
+
+
+main {
+    display: flex;
+    margin: 10px;
+    font-size: 15px;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+#mains {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#menu {
+    display: flex;
+    flex: none;
+    min-width: 250px;
+    max-width: 200px;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.side a {
+    background-color: white;
+    padding: 7px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.right {
+    border:1px solid hsl(0, 0%, 77%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.left {
+    border:1px solid hsl(0, 0%, 77%);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(238, 239, 244, 0.956);
+}
+.button {
+    display: flex;
+    gap: 10px;
+}
+.button button {
+    flex-grow: 1;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+section h4 {
+  margin-bottom: 10px;
+}
+section p {
+  margin-bottom: 10px; 
+}
+
+.left p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 212, 212);
+    font-size: 12px;
+    gap: 30px;
+}
+.href a{
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+}
